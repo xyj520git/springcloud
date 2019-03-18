@@ -1,0 +1,8 @@
+zuul:
+   routes:
+     api-a:
+       path: /api-a/**
+       serviceId: admin-service
+     api-b:
+       path: /api-b/**
+       serviceId: basic-service

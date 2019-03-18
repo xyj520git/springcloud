@@ -9,6 +9,7 @@
         <module name="admin-service" />
         <module name="basic-service" />
         <module name="common-api" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="basic-service" target="1.8" />
       <module name="common-api" target="1.8" />
       <module name="parent" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

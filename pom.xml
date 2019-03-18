@@ -194,6 +194,7 @@
         <module>admin-service</module>
         <module>common-api</module>
         <module>basic-service</module>
+        <module>zuul</module>
     </modules>
 
 </project>
