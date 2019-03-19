@@ -7,6 +7,7 @@ public class User implements Serializable{
     private String userName;
     private String password;
     private String email;
+    private String orgNo;
 
     public Integer getId() {
         return id;
@@ -38,5 +39,13 @@ public class User implements Serializable{
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getOrgNo() {
+        return orgNo;
+    }
+
+    public void setOrgNo(String orgNo) {
+        this.orgNo = orgNo;
     }
 }
